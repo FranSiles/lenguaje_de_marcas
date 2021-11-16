@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary halloween party</title>
+    <link rel="shortcut icon" href="./images/favicon (1).ico" type="imagen/x-icon">
+    <link rel="stylesheet" href="./styles/halloween.css">
+    <script src="./javascripts/halloween.js"></script>
+</head>
+<body>
+    <audio >
+<source src="./sounds/sonido_de_miedo.mp3"type="audio/mpeg">
+    </audio>
+    <audio>
+    <source src="./sounds/sonido_de_miedo.mp3"type="audio/mpeg">
+    </audio>
+    <!-- Layout basico incluye un container-->
+    <!--ATENCÓN esta pagina no va a ser responsive-->
+    <div id ="container">
+
+<p id="p1">Scary halloween party</p>
+<!--Primer efecto: la puerta -->
+<p id="p2">Don´t knock on the door</p>
+<p id="p4">Don't knock on the stone </p>
+<img id="bats" src="./images/murcielago.gif" alt="">
+<img id="zombie" src="./images/zombie.gif" alt="">
+<!--Creo un div-->
+<div id="puerta" onmouseover="mostrar('bats');sonar('laugh');"
+                onmouseout="ocultar('bats');parar('laugh');">
+</div>
+<div id="puerta2" onmouseover="mostrar('zombie');sonar('laugh');"
+onmouseout="ocultar('zombie');parar('laugh');">
+</div>
+    </div>
+<p id="p3">Welcome to the page, if I were you, I would pay attention to the indications on the page if you could not get a surprise</p>
+    </div>
+</body>
+</html>
