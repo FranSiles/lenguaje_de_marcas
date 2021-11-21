@@ -1,0 +1,68 @@
+/****************** stylesheet for halloween ****************/
+body{background-color: black;
+    color: white;
+    font-family: halloween;}
+
+    @font-face {
+        font-family: halloween;
+        src: url('../fonts/Nightscary\ Free\ Trial.ttf');
+    }
+/*NO ES RESPONSIVE,PORQUE NECESITO */
+#p3{margin: auto;
+    color: white;
+background-color: rgb(139, 47, 47);
+font-size: 2.5em;
+position:absolute;
+text-shadow: 5px 5px 5px black;
+top: 0px;
+left: 500px;}
+#container {background-image: url("../images/28727.jpg");
+    width: 1920px; /* fijo el ancho de la imagen*/
+    height: 1152px;/* fijo el alto de la imagen*/
+    margin:auto;
+position: relative;/*el container se mueve por la pantalla*/}
+    #p1{font-size: 5em;
+    text-shadow: 5px 5px 5px red ;
+    position:absolute;/*fijo clavado,dentro de su contenedor #container*/
+    top: 20px;
+    left: 200px;}
+    #p2{color: black;
+        position:absolute;
+        top:700px;
+        left: 770px;
+        font-size:1.5em;}
+    #bats{position:absolute;
+        top:560px;
+        left: 750px;
+    width: 200px;
+    visibility: hidden;}
+    #puerta{width: 150px;
+            height: 150px;
+            position:absolute;
+            top: 670px;
+            left:770px;
+    }
+    #p3{margin: auto;
+        color: white;
+    background-color: rgb(139, 47, 47);
+    font-size: 2.5em;
+    position:absolute;
+    text-shadow: 5px 5px 5px black;
+    top: 200px;
+    left: 200px;}
+    #zombie{position:absolute;
+    width: 150px;
+    top: 700px;
+left: 1650px;
+visibility: hidden;}
+#p4{color: black;
+    position:absolute;
+    top:750px;
+    left: 1700px;
+    font-size:1.5em;}
+    #puerta2{width: 150px;
+        height: 150px;
+        position:absolute;
+        top: 700px;
+        left:1700px;
+}
